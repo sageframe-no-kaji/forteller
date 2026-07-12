@@ -1,0 +1,73 @@
+{
+  "keisaku": 1,
+  "works": [
+    {
+      "id": "forteller",
+      "name": "Forteller",
+      "hero": "Intent flows outward, not inward.",
+      "importance": 3,
+      "featured": false,
+      "group": "infrastructure",
+      "themes": [
+        "infrastructure",
+        "sovereignty"
+      ],
+      "sort_order_within_group": 10,
+      "tags": [
+        "software",
+        "cli",
+        "infrastructure",
+        "configuration-management",
+        "homelab"
+      ],
+      "media": [
+        "software"
+      ],
+      "status": "in-development",
+      "repo": "git@github-no-kaji:sageframe-no-kaji/forteller.git",
+      "deployment": [
+        {
+          "label": "GitHub repo",
+          "url": "https://github.com/sageframe-no-kaji/forteller"
+        }
+      ],
+      "created": "2026-05-05",
+      "last_updated": "2026-03-22",
+      "conceived": "2025-08-01",
+      "named": "2026-03-21",
+      "short_description": "Push-only, vault-first CLI for tending the relationship between a configuration vault and the machines it describes; no agents, no YAML sprawl, declarative intent pushed outward from a single source of truth.",
+      "substantive_description": [
+        "Most infrastructure-as-code tooling assumes agents on every machine, YAML files multiplying past anyone's ability to keep them coherent, and a model of configuration as conversation with the fleet. Forteller refuses the model. There is one source of truth — the vault. Intent flows outward, not inward. No agents. No state drift. The deeper argument is about the dominant tooling assumption that complexity is necessary. For the homelab practitioner, it isn't. For most production environments at most scales, it isn't either. Forteller demonstrates the simpler alternative."
+      ],
+      "images": {
+        "gallery": []
+      },
+      "relationships": [
+        {
+          "edge_class": "narrative",
+          "target": "palana",
+          "type": "paired_with",
+          "note": "Forteller pushes declarative intent; Pālana provides the operational state view. The pair is the Kṣetra-Ops suite."
+        }
+      ],
+      "_keisaku": {
+        "generated_at": "2026-07-11T13:34:16",
+        "generator_version": "1",
+        "sources": {
+          "readme": "README.md"
+        },
+        "derived_defaults": {
+          "id": "forteller",
+          "name": "Kṣetra-Ops",
+          "media": [
+            "software"
+          ],
+          "created": "2026-03-22"
+        },
+        "contract_issues": [
+          "no-contract-source"
+        ]
+      }
+    }
+  ]
+}
