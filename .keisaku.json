@@ -35,9 +35,10 @@
       "last_updated": "2026-03-22",
       "conceived": "2025-08-01",
       "named": "2026-03-21",
-      "short_description": "Push-only, vault-first CLI for tending the relationship between a configuration vault and the machines it describes; no agents, no YAML sprawl, declarative intent pushed outward from a single source of truth.",
+      "short_description": "A push-only, vault-first CLI for tending the relationship between a configuration vault and the machines it describes — declarative intent pushed outward from a single source of truth.",
       "substantive_description": [
-        "Most infrastructure-as-code tooling assumes agents on every machine, YAML files multiplying past anyone's ability to keep them coherent, and a model of configuration as conversation with the fleet. Forteller refuses the model. There is one source of truth — the vault. Intent flows outward, not inward. No agents. No state drift. The deeper argument is about the dominant tooling assumption that complexity is necessary. For the homelab practitioner, it isn't. For most production environments at most scales, it isn't either. Forteller demonstrates the simpler alternative."
+        "Most infrastructure-as-code tooling assumes agents on every machine, YAML files multiplying past anyone's ability to keep them coherent, and a model of configuration as an ongoing conversation with the fleet. Forteller refuses the model. There is one source of truth — the vault — and intent flows outward, not inward: no agents, no state drift. The deeper argument is about the dominant assumption that complexity is necessary; for the homelab practitioner it is not, and for most production environments at most scales it is not either, and Forteller demonstrates the simpler alternative. It is planned as a plugin within Pālana, the operational workbench, and belongs to the Kṣetra-Ops suite — the same ethos of transparency and responsibility without ceremony, expressed as configuration.",
+        "A command-line tool, planned as an integrated capability within Pālana; pre-build."
       ],
       "images": {
         "gallery": []
@@ -51,10 +52,11 @@
         }
       ],
       "_keisaku": {
-        "generated_at": "2026-07-12T10:36:25",
+        "generated_at": "2026-07-13T10:31:22",
         "generator_version": "1",
         "sources": {
-          "readme": "README.md"
+          "readme": "README.md",
+          "description": "metadata/description.md"
         },
         "derived_defaults": {
           "id": "forteller",
@@ -62,7 +64,12 @@
           "media": [
             "software"
           ],
-          "created": "2026-03-22"
+          "created": "2026-03-22",
+          "short_description": "A push-only, vault-first CLI for tending the relationship between a configuration vault and the machines it describes — declarative intent pushed outward from a single source of truth.",
+          "substantive_description": [
+            "Most infrastructure-as-code tooling assumes agents on every machine, YAML files multiplying past anyone's ability to keep them coherent, and a model of configuration as an ongoing conversation with the fleet. Forteller refuses the model. There is one source of truth — the vault — and intent flows outward, not inward: no agents, no state drift. The deeper argument is about the dominant assumption that complexity is necessary; for the homelab practitioner it is not, and for most production environments at most scales it is not either, and Forteller demonstrates the simpler alternative. It is planned as a plugin within Pālana, the operational workbench, and belongs to the Kṣetra-Ops suite — the same ethos of transparency and responsibility without ceremony, expressed as configuration.",
+            "A command-line tool, planned as an integrated capability within Pālana; pre-build."
+          ]
         },
         "contract_issues": [
           "no-contract-source"
