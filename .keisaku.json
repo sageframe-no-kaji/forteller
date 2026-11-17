@@ -1,5 +1,5 @@
 {
-  "keisaku": 1,
+  "keisaku": 2,
   "works": [
     {
       "id": "forteller",
@@ -32,7 +32,7 @@
         }
       ],
       "created": "2026-05-05",
-      "last_updated": "2026-07-14",
+      "last_updated": "2026-03-22",
       "conceived": "2025-08-01",
       "named": "2026-03-21",
       "short_description": "A push-only, vault-first CLI for tending the relationship between a configuration vault and the machines it describes — declarative intent pushed outward from a single source of truth.",
@@ -52,10 +52,11 @@
         }
       ],
       "_keisaku": {
-        "generated_at": "2026-11-16T10:49:44",
+        "generated_at": "2026-11-17T15:26:28",
         "generator_version": "1",
         "sources": {
           "readme": "README.md",
+          "contract": "ho-process/kamae-6-forteller-state-memory.md",
           "description": "metadata/description.md"
         },
         "derived_defaults": {
@@ -64,6 +65,7 @@
           "media": [
             "software"
           ],
+          "status": "scaffolded",
           "created": "2026-03-22",
           "short_description": "A push-only, vault-first CLI for tending the relationship between a configuration vault and the machines it describes — declarative intent pushed outward from a single source of truth.",
           "substantive_description": [
@@ -71,9 +73,7 @@
             "A command-line tool, planned as an integrated capability within Pālana; pre-build."
           ]
         },
-        "contract_issues": [
-          "no-contract-source"
-        ]
+        "contract_issues": []
       }
     }
   ]
